@@ -30,7 +30,7 @@ setx PATH "%PATH%;%DRIVE%\bin;%MINGW_PATH%\bin;%MINGW_PATH%\msys\1.0\bin;%MINGW_
 
 В распакованном виде файлы rust занимают чуть более 600Mb. Так как в gitHub есть ограничение на файлы более 100Mb было решено разбить содержимое на несколько архивов.
 
-Вы можете запустить скрипт **rust-install.cmd** и установить rust из установочного файла rust-1.80.1-x86_64-pc-windows-msvc.msi и собрать свою portable версию rust
+Вы можете запустить скрипт **rust-install.cmd** и установить rust из установочного файла rust-1.80.1-x86_64-pc-windows-gnu.msi и собрать свою portable версию rust
 ````shell
 rem скачиваем файл установки, если есть запускаем
 if exist rust-1.80.1-x86_64-pc-windows-gnu.msi (
